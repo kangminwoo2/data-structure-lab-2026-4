@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\Complex.obj",
+            "outputs": [
+                "x64\\Debug\\Complex.h_58DE5883A0CDF0D3.ifc.dt.module.json",
+                "x64\\Debug\\Complex.h_58DE5883A0CDF0D3.ifc.dt.d.json",
+                "x64\\Debug\\Complex.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\data-structure-lab-2026\\Lec04_Array_Class\\Complex_Class\\Complex.h",
+                    "source-path": "c:\\data-structure-lab-2026\\lec04_array_class\\complex_class\\complex.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
