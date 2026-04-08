@@ -1,19 +1,23 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include <string.h>
+
+struct employee {
+	char name[10];
+	int year;
+	int pay;
+};
 
 void main() {
-	int i;
-	char string1[20] = "Dreams come true!" , string2[20]; // 배열 선언을 ","을 통해 할 수 있음
-	char* ptr1, *ptr2; // 포인터 변수도 ","을 통해 선언 할 수 있음. 단 *을 붙여서 사용
+	struct employee Lee;
+	struct employee* Sptr = &Lee;
+	strcpy(Sptr->name, "이순신");
+	Sptr-> year = 2023;
+	Sptr->pay = 5900;
 
-	ptr1 = string1;
-	printf("\n string1의 주소 = %u \t ptr1 = %u", string1, ptr1);
-	printf("\n string1의 주소 = %u", &string1[0]);
-
-	printf("\n string1: %s", string1);
-	printf("\n ptr1: %s", ptr1);
-	printf("\n ptr1+7: %s", ptr1+7); // 7번째 문자 이후의 문자열을 출력
-	printf("\n string1: %s", &string1[7]);
-
-	printf("\n\n ptr1+7 주소: %u \n\n", ptr1 + 7);
+	printf("\n 이름 : %s", Sptr->name);
+	printf("\n 입사 : %d", Sptr->year);
+	printf("\n 연봉 : %d", Sptr->pay);
 
 }
+
