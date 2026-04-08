@@ -1,0 +1,7 @@
+﻿  모듈 종속성의 소스를 검사하는 중...
+  Polynomial.h
+  컴파일하는 중...
+  Polynomial.h
+  Polynomial.cpp
+C:\data-structure-lab-2026\Lec04_Array_Class\Polynomial_Class\Polynomial.cpp(3,6): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  Polynomial_Class.vcxproj -> C:\data-structure-lab-2026\Lec04_Array_Class\x64\Debug\Polynomial_Class.exe
