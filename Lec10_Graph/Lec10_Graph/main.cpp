@@ -40,4 +40,10 @@ void main()
 	g.resetVisited(); // 모든 정점을 방문하지 않았다고 하고
 	g.DFS(0); // 0번째 정점(A) 에서 깊이 우선 탐색 시작	
 	printf("\n");
+
+	WGraph wg;
+	wg.load("C:/Users/USER/Documents/data-structure-lab-2026-4/LEC10_Graph/graph.txt");
+	wg.display();
+
+	return ;
 }
