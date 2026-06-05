@@ -1,3 +1,8 @@
+#include "VertexSets.h"
+#include "HeapNode.h"
+#include "MinHeap.h"
+#include ""
+
 class WGraphMST : public WGraph {
 public:
     void Kruskal() {      // kruskal의 최소 비용 신장 트리 프로그램

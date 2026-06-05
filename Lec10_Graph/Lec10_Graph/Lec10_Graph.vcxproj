@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="WgraphDijkstra.cpp" />
     <ClCompile Include="WGraphMST.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -136,7 +137,9 @@
     <ClInclude Include="MinHeap.h" />
     <ClInclude Include="SrchAMGraph.h" />
     <ClInclude Include="VertexSets.h" />
+    <ClInclude Include="WgraphDijkstra.h" />
     <ClInclude Include="WGraphMST.h" />
+    <ClInclude Include="WGraphPrim.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

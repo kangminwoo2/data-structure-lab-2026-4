@@ -1,5 +1,6 @@
 // MinHeap.h: 최소 힙 클래스 (프로그램 10.7)
-#include "HeapNode.h"
+#include "HeapNode.h"   
+#include "MinHeap.h"
 #define MAX_ELEMENT 200 //힙의 최대 크기
 
 class Minheap {
